@@ -30,6 +30,7 @@ def initial_round
   display_card_total(card_total)
   return card_total# code #initial_round here
 end
+end
 
 def hit?
   puts prompt_user
