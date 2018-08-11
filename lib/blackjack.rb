@@ -55,8 +55,8 @@ def runner
   puts welcome
   card_total = initial_round
     until card_total >= 21
-      puts hit?
-      puts display_card_total
+      card_total = hit?(card_total)
+      display_card_total(card_total)
     end
   return end_game# code runner here
 end
