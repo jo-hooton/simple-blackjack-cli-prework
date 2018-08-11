@@ -30,7 +30,8 @@ def initial_round(card_total)
 end
 
 def hit?
-  answer = gets.chomp# code hit? here
+  puts prompt_user
+  puts get_user_input# code hit? here
 end
 
 def invalid_command
