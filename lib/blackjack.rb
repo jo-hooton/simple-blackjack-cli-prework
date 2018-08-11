@@ -15,7 +15,8 @@ def prompt_user
 end
 
 def get_user_input
-  answer = gets.chomp# code #get_user_input here
+  answer = gets.chomp
+  return answer# code #get_user_input here
 end
 
 def end_game(card_total)
