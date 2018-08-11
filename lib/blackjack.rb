@@ -52,6 +52,7 @@ end
 #####################################################
 
 def runner
+  car_total == 0
     until card_total >= 21
       puts welcome
       puts initial_round
