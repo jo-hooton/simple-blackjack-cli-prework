@@ -52,10 +52,9 @@ end
 #####################################################
 
 def runner
-  card_total == 0
+  puts welcome
+  card_total = initial_round
     until card_total >= 21
-      puts welcome
-      puts initial_round
       puts hit?
       puts display_card_total
     end
