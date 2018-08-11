@@ -23,15 +23,18 @@ def end_game(card_total)
   puts "Sorry, you hit 27. Thanks for playing!"# code #end_game here
 end
 
-def initial_round(card_total)
-  puts deal_card
-  puts deal_card
-  puts "Your cards add up to #{display_card_total}" # code #initial_round here
+def initial_round
+  first_card = deal_card
+  second_card = deal_card
+  card_total = first_card + second_card
+  display_card_total(card_total)
+  return card_total# code #initial_round here
 end
 
 def hit?
   puts prompt_user
-  puts get_user_input# code hit? here
+  puts get_user_input
+  if answer =  # code hit? here
 end
 
 def invalid_command
